@@ -1,8 +1,8 @@
-import API from "../util/API";
+import API from "../util/api";
 import React, { useEffect, useState } from "react";
 
-const empContainer = () => {
-  const [employee, setEmployees] = useState([]);
+const EmployeeContainer = () => {
+  const [employees, setEmployees] = useState([]);
 
   useEffect(() => {
     API.search()
@@ -84,4 +84,4 @@ const empContainer = () => {
   );
 };
 
-export default EmployeeTableContainer;
+export default EmployeeContainer;

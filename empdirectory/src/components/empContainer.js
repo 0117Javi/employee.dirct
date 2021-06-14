@@ -1,4 +1,4 @@
-import API from "../util/api";
+import API from "../utils/API";
 import React, { useEffect, useState } from "react";
 
 const EmployeeContainer = () => {
